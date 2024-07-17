@@ -61,3 +61,40 @@ if(number7 % 7 == 0):
     print("The number",number7 ,"is a multiple of 7")
 else:
     print("The number",number7 ,"is not a multiple of 7")
+    
+'''
+6. Write a program to input 3 fav movies from the use and then enter it into a list.
+'''
+# 1st method
+movie1 = input("Enter your fav movie/series no. 1: ")
+movie2 = input("Enter your fav movie/series no. 2: ")
+movie3 = input("Enter your fav movie/series no. 3: ")
+fav = [movie1, movie2, movie3 ]
+print(fav)
+
+# 2nd method
+movies = []
+movies.append(movie1)
+movies.append(movie2)
+movies.append(movie3)
+print(movies)
+
+# 3rd method 
+movie = []
+movie.append(movie1 = input("Enter your fav movie/series no. 1: "))
+movie.append(movie2 = input("Enter your fav movie/series no. 2: "))
+movie.append(movie3 = input("Enter your fav movie/series no. 3: "))
+print(movie)
+
+'''
+7. Write a program to check that a list contain palindrome or not.
+'''
+# palindrome sentence => Borrow or rob?
+list1 = ['b','o','r','r','o','w','o','r','r','o','b']
+# list1 = [1,2,3,4,3,2,1]
+list_copy = list1.copy()
+list_copy.reverse()
+if (list1 == list_copy ) :
+    print("Yes, It's a vaild palendrome.")
+else:
+    print("Not a palendrome")
