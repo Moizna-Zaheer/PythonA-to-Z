@@ -1,9 +1,9 @@
 ''' 
 1. Write a program to input 2 numbers and then print their sum 
 ''' 
-first = int(input('Enter frist number:'))
-second = int(input('Enter second number:'))
-print("Sum of first and second nmber is :",a+b)
+first = (input('Enter frist number:'))
+second = (input('Enter second number:'))
+print("Sum of first and second nmber is :", first + second)
 
 '''
 2. Write a program to input the side of a square and then print its area
@@ -16,7 +16,7 @@ print('Area of square is:', side**2)
 '''
 floatfirst = float(input('Enter frist decimal number:'))
 floatsecond = float(input('Enter second decimal number:'))
-print('Average of these two decimal numbers is:',c + d // 2)
+print('Average of these two decimal numbers is:',floatfirst + floatsecond // 2)
 
 '''
 4. Write a program to input 2 numbers a and b. Print True if a is greater than b and print False if b is greater than a
@@ -63,4 +63,3 @@ print('Length of your first name is: ' , len(name))
 '''
 string2 = "Hi I'm $. I'm a $  bill."
 print(string2.count('$'))
-

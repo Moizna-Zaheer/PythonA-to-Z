@@ -98,3 +98,4 @@ if (list1 == list_copy ) :
     print("Yes, It's a vaild palendrome.")
 else:
     print("Not a palendrome")
+ 
